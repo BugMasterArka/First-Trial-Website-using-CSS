@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color:darkslateblue;
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+    align-items: center;
+    color: gainsboro;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 2vh 1vw;
+}
+.logo img{
+    width: 15vw;
+}
+nav ul{
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5vh 0;
+}
+nav ul li{
+    list-style: none;
+    padding: 1vh 1.5vw;
+    border-radius: 5px;
+}
+nav ul li:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+nav ul li a{
+    font-family: 'Style Script', cursive;
+    text-decoration: none;
+    color: indigo;
+    font-size: 1.35vw;
+}
+nav ul li a:hover{
+    font-size: 1.75vw;
+}
+.myimg{
+    display: flex;
+    align-items: center;
+    padding: 2vh 0;
+}
+.myimg img{
+    width: 30vw;
+    padding: 0 2vw;
+}
+.intro-card{
+    background-color: khaki;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.myinfo{
+    background-color: rgb(216, 207, 123);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.myinfo p{
+    padding: 1vh 5vw 3vh 5vw;
+    font-family: 'Norican', cursive;
+}
+.myinfo h2{
+    padding: 3vh 5vw 2vh 5vw;
+    font-family: 'Bebas Neue', cursive;
+}
+main{
+    min-height: calc(100vh - 6vh - 12vh);
+}
+.edu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+.college{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+}
+.college-logo{
+    display: flex;
+}
+.college-logo img{
+    background-color:rgb(129, 0, 0);
+    width: 20vw;
+    padding: 1vh 2vw;
+}
+.college-info{
+    background-color: rgb(214, 214, 166);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.college-info h2{
+    padding: 3vh 5vw 2vh 2vw;
+    font-family: 'Bebas Neue', cursive;
+}
+.college-info p{
+    padding: 0 5vw 3vh 2vw;
+    font-family: 'Norican', cursive;
+}
+.school-hs{
+    display: flex;
+}
+.school-logo-hs{
+    margin: 0;
+    display: flex;
+}
+.school-logo-hs img{
+    background-color: rgb(189, 102, 40);
+    width: 10vw;
+    padding: 1vh 7vw;
+}
+.school-hs-info{
+    background-color: rgb(214, 214, 166);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.school-hs-info h2{
+    padding: 3vh 5vw 2vh 2vw;
+    font-family: 'Bebas Neue', cursive;
+}
+.school-hs-info p{
+    padding: 0 5vw 3vh 2vw;
+    font-family: 'Norican', cursive;
+}
+.school{
+    display: flex;
+    flex-direction: row;
+}
+.school-logo{
+    display: flex;
+}
+.school-logo img{
+    background-color: rgb(67, 112, 148);
+    padding: 1vh 7.5vw;
+}
+.school-info{
+    background-color: rgb(214, 214, 166);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.school-info h2{
+    padding: 3vh 5vw 2vh 2vw;
+    font-family: 'Bebas Neue', cursive;
+}
+.school-info p{
+    padding: 0 5vw 3vh 2vw;
+    font-family: 'Norican', cursive;
+}
+
